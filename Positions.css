@@ -1,11 +1,14 @@
 div{
     background-color: salmon;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     color: white;
     text-align: center;
     width: 300px;
     border: dashed black;
+}
+*{
+    margin: 0%;
 }
 .aa{
     position: static;
@@ -22,12 +25,12 @@ div{
 .dd{
     position: fixed;
 top: 500px;
-left: 1000px;
+left: 900px;
 }
 .ee{
     position: sticky;
     top: 0%;
     width: 100%;
     margin: 0%;
-    padding: 0%;
+    
 }
